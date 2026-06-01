@@ -79,3 +79,4 @@ Ajuste esses valores antes de rodar os comandos de migration.
 ## Executar programa
 
 Vai até a pasta `cmd/` e rode `go run main.go`
+Para acessar, faça uma chamada à API: `http://localhost:{porta do env}/createBooks`
