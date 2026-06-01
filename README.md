@@ -1,6 +1,7 @@
 # UOW + Clean Architecture (Go)
 
-Projeto em Go com foco em **transações com Unit of Work (UoW)** usando **MySQL**.
+Projeto em Go com foco em **transações com Unit of Work (UoW)** usando **MySQL**.<br/>
+Unit of Work (Unidade de Trabalho) é um padrão de projeto que agrupa várias operações de banco de dados em uma única transação. Ele garante que todas as alterações sejam salvas juntas ou que nenhuma seja salva, protegendo a integridade dos dados e permitindo desfazer (rollback) o processo em caso de falha.
 
 ## Tecnologias
 
