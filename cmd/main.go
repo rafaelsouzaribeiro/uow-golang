@@ -3,7 +3,8 @@ package main
 import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/rafaelsouzaribeiro/uow-golang/configs"
-	"github.com/rafaelsouzaribeiro/uow-golang/internal/infra/database/mysql/connection"
+
+	"github.com/rafaelsouzaribeiro/uow-golang/internal/infra/database/connection"
 	"github.com/rafaelsouzaribeiro/uow-golang/internal/infra/di"
 	"github.com/rafaelsouzaribeiro/uow-golang/internal/infra/web/server"
 )
